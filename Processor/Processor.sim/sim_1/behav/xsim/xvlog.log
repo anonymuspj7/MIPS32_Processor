@@ -1,0 +1,78 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.gen/sources_1/ip/mem_ram/sim/mem_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.gen/sources_1/ip/mem_rom/sim/mem_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/LUI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LUI
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/RegBank.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-311] analyzing module regBank
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/SGT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SGT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/SLT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SLT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/SignE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module fullAdder32
+INFO: [VRFC 10-311] analyzing module fullAdder8
+INFO: [VRFC 10-311] analyzing module fullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseAND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bitwiseAND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseNOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bitwiseNOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseNOT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bitwiseNOT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bitwiseOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseXOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bitwiseXOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/new/clkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/cond_check.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cond_check
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/controlSignal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlSignal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/decA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/hamA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fullAdder2
+INFO: [VRFC 10-311] analyzing module fullAdder3
+INFO: [VRFC 10-311] analyzing module hamA_8
+INFO: [VRFC 10-311] analyzing module hamA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/incA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-311] analyzing module leftShift32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32to1_bitwise
+INFO: [VRFC 10-311] analyzing module mux32to1
+INFO: [VRFC 10-311] analyzing module mux16to1_bitwise
+INFO: [VRFC 10-311] analyzing module mux16to1
+INFO: [VRFC 10-311] analyzing module mux8to1_bitwise
+INFO: [VRFC 10-311] analyzing module mux8to1
+INFO: [VRFC 10-311] analyzing module mux4to1
+INFO: [VRFC 10-311] analyzing module mux2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rightShift_A
+INFO: [VRFC 10-311] analyzing module rightShift_A32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rightShift_L
+INFO: [VRFC 10-311] analyzing module rightShift_L32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtract
+INFO: [VRFC 10-311] analyzing module fullSubtract32
+INFO: [VRFC 10-311] analyzing module fullSubtract8
+INFO: [VRFC 10-311] analyzing module fullSubtract
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module topModule
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prana/Downloads/Processor/Processor.srcs/sim_1/imports/new/testSMALL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testSMALL

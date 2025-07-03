@@ -1,0 +1,2 @@
+mem_ram.v,verilog,xil_defaultlib,../../../../Processor.gen/sources_1/ip/mem_ram/sim/mem_ram.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

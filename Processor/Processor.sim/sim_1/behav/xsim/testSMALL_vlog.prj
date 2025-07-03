@@ -1,0 +1,37 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Processor.gen/sources_1/ip/mem_ram/sim/mem_ram.v" \
+"../../../../Processor.gen/sources_1/ip/mem_rom/sim/mem_rom.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/IR.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/LUI.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/RegBank.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/SGT.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/SLT.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/SignE.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/adder.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseAND.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseNOR.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseNOT.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseOR.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseXOR.v" \
+"../../../../Processor.srcs/sources_1/new/clkDiv.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/cond_check.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/controlSignal.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/decA.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/hamA.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/incA.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/leftShift.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/main.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/mux.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_A.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_L.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/subtractor.v" \
+"../../../../Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v" \
+"../../../../Processor.srcs/sim_1/imports/new/testSMALL.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

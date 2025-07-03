@@ -1,0 +1,28 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Nov 11 20:07:53 2024
+| Host         : Pranav_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_project -migrate_output_products
+| Project_Path : C:/Users/prana/Downloads/Processor/Processor.xpr
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Project Status Summary
+
+1. Project IP Status
+--------------------
+This project contains 2 IP and 0 Block Designs.
+
+
+1.1 Project IP Instances
++----------+-------------------------+-------------------------------------+-------------------------------------+
+| Instance | Status                  | Reason                              | Recommendation                      |
+| Name     |                         |                                     |                                     |
++----------+-------------------------+-------------------------------------+-------------------------------------+
+| mem_ram1 | Will be Migrated.       |                                     |                                     |
++----------+-------------------------+-------------------------------------+-------------------------------------+
+| mem_rom1 | Will be Migrated.       |                                     |                                     |
++----------+-------------------------+-------------------------------------+-------------------------------------+
+
+
+

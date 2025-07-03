@@ -1,0 +1,498 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Nov 12 22:25:49 2024
+# Process ID: 3060
+# Current directory: C:/Users/prana/Downloads/Processor/Processor.runs/synth_1
+# Command line: vivado.exe -log topModule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source topModule.tcl
+# Log file: C:/Users/prana/Downloads/Processor/Processor.runs/synth_1/topModule.vds
+# Journal file: C:/Users/prana/Downloads/Processor/Processor.runs/synth_1\vivado.jou
+# Running On        :Pranav_PC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8299 MB
+# Swap memory       :13036 MB
+# Total Virtual     :21335 MB
+# Available Virtual :2669 MB
+#-----------------------------------------------------------
+source topModule.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 513.961 ; gain = 198.371
+Command: synth_design -top topModule -part xc7a100tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+INFO: [Device 21-9227] Part: xc7a100tcsg324-3 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4076
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1392.465 ; gain = 448.312
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'readIM', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:34]
+INFO: [Synth 8-11241] undeclared symbol 'loadIR', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:34]
+INFO: [Synth 8-11241] undeclared symbol 'writeReg', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:34]
+INFO: [Synth 8-11241] undeclared symbol 'loadA', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:34]
+INFO: [Synth 8-11241] undeclared symbol 'loadB', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:34]
+INFO: [Synth 8-11241] undeclared symbol 'sel1', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:35]
+INFO: [Synth 8-11241] undeclared symbol 'sel2', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:35]
+INFO: [Synth 8-11241] undeclared symbol 'loadALUout', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:35]
+INFO: [Synth 8-11241] undeclared symbol 'readDM', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:35]
+INFO: [Synth 8-11241] undeclared symbol 'writeDM', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:35]
+INFO: [Synth 8-11241] undeclared symbol 'loadLMD', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:36]
+INFO: [Synth 8-11241] undeclared symbol 'sel5', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:36]
+INFO: [Synth 8-11241] undeclared symbol 'sel4', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:36]
+INFO: [Synth 8-11241] undeclared symbol 'selJ', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:36]
+INFO: [Synth 8-11241] undeclared symbol 'loadIMM', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:36]
+INFO: [Synth 8-11241] undeclared symbol 'eq', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:36]
+INFO: [Synth 8-11241] undeclared symbol 'lt', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:36]
+INFO: [Synth 8-11241] undeclared symbol 'gt', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:36]
+INFO: [Synth 8-11241] undeclared symbol 'br', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:36]
+INFO: [Synth 8-11241] undeclared symbol 'loadPC', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:37]
+INFO: [Synth 8-11241] undeclared symbol 'loadNPC', assumed default net type 'wire' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:37]
+INFO: [Synth 8-6157] synthesizing module 'topModule' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clkDiv' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/new/clkDiv.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clkDiv' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/new/clkDiv.v:23]
+INFO: [Synth 8-6157] synthesizing module 'controlSignal' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/controlSignal.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/controlSignal.v:617]
+INFO: [Synth 8-6155] done synthesizing module 'controlSignal' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/controlSignal.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mem_rom' [C:/Users/prana/Downloads/Processor/Processor.runs/synth_1/.Xil/Vivado-3060-Pranav_PC/realtime/mem_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mem_rom' (0#1) [C:/Users/prana/Downloads/Processor/Processor.runs/synth_1/.Xil/Vivado-3060-Pranav_PC/realtime/mem_rom_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'IR' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/IR.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'IR' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/IR.v:22]
+INFO: [Synth 8-6157] synthesizing module 'regBank' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/RegBank.v:33]
+INFO: [Synth 8-6157] synthesizing module 'register' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/RegBank.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'register' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/RegBank.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'regBank' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/RegBank.v:33]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'kALU' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/main.v:23]
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/adder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'fullAdder32' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/adder.v:32]
+INFO: [Synth 8-6157] synthesizing module 'fullAdder8' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/adder.v:47]
+INFO: [Synth 8-6157] synthesizing module 'fullAdder' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/adder.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'fullAdder' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/adder.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'fullAdder8' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/adder.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'fullAdder32' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/adder.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/adder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'subtract' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/subtractor.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fullSubtract32' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/subtractor.v:32]
+INFO: [Synth 8-6157] synthesizing module 'fullSubtract8' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/subtractor.v:46]
+INFO: [Synth 8-6157] synthesizing module 'fullSubtract' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/subtractor.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'fullSubtract' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/subtractor.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'fullSubtract8' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/subtractor.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'fullSubtract32' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/subtractor.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'subtract' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/subtractor.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SLT' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/SLT.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SLT' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/SLT.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SGT' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/SGT.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SGT' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/SGT.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseAND' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseAND.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseAND' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseAND.v:22]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseOR' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseOR.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseOR' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseOR.v:22]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseXOR' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseXOR.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseXOR' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseXOR.v:22]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseNOT' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseNOT.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseNOT' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseNOT.v:1]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseNOR' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseNOR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseNOR' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/bitwiseNOR.v:23]
+INFO: [Synth 8-6157] synthesizing module 'LUI' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/LUI.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LUI' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/LUI.v:23]
+INFO: [Synth 8-6157] synthesizing module 'leftShift' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/leftShift.v:3]
+INFO: [Synth 8-6157] synthesizing module 'leftShift32' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/leftShift.v:15]
+INFO: [Synth 8-6157] synthesizing module 'mux32to1_bitwise' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:22]
+INFO: [Synth 8-6157] synthesizing module 'mux16to1' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:79]
+INFO: [Synth 8-6157] synthesizing module 'mux4to1' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:127]
+INFO: [Synth 8-6155] done synthesizing module 'mux4to1' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:127]
+INFO: [Synth 8-6155] done synthesizing module 'mux16to1' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:79]
+INFO: [Synth 8-6157] synthesizing module 'mux2to1' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:156]
+INFO: [Synth 8-6155] done synthesizing module 'mux2to1' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:156]
+INFO: [Synth 8-6155] done synthesizing module 'mux32to1_bitwise' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'leftShift32' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/leftShift.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'leftShift' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/leftShift.v:3]
+INFO: [Synth 8-6157] synthesizing module 'rightShift_L' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_L.v:1]
+INFO: [Synth 8-6157] synthesizing module 'rightShift_L32' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_L.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'rightShift_L32' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_L.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'rightShift_L' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_L.v:1]
+INFO: [Synth 8-6157] synthesizing module 'rightShift_A' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_A.v:1]
+INFO: [Synth 8-6157] synthesizing module 'rightShift_A32' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_A.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'rightShift_A32' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_A.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'rightShift_A' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/rightShift_A.v:1]
+INFO: [Synth 8-6157] synthesizing module 'incA' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/incA.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'incA' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/incA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'decA' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/decA.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'decA' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/decA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'hamA' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/hamA.v:70]
+INFO: [Synth 8-6157] synthesizing module 'hamA_8' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/hamA.v:47]
+INFO: [Synth 8-6157] synthesizing module 'fullAdder2' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/hamA.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'fullAdder2' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/hamA.v:22]
+INFO: [Synth 8-6157] synthesizing module 'fullAdder3' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/hamA.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'fullAdder3' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/hamA.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'hamA_8' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/hamA.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'hamA' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/hamA.v:70]
+INFO: [Synth 8-6157] synthesizing module 'mux16to1_bitwise' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:49]
+INFO: [Synth 8-6157] synthesizing module 'mux8to1' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:115]
+INFO: [Synth 8-6155] done synthesizing module 'mux8to1' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:115]
+INFO: [Synth 8-6155] done synthesizing module 'mux16to1_bitwise' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/mux.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'kALU' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/main.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mem_ram' [C:/Users/prana/Downloads/Processor/Processor.runs/synth_1/.Xil/Vivado-3060-Pranav_PC/realtime/mem_ram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mem_ram' (0#1) [C:/Users/prana/Downloads/Processor/Processor.runs/synth_1/.Xil/Vivado-3060-Pranav_PC/realtime/mem_ram_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'SignE' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/SignE.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SignE' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/SignE.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cond_check' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/cond_check.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'cond_check' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/cond_check.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'topModule' (0#1) [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/imports/new/topModule.v:23]
+WARNING: [Synth 8-7129] Port b[31] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[30] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[29] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[28] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[27] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[26] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[25] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[24] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[23] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[22] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[21] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[20] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[19] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[18] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[17] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[16] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[15] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[14] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[13] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[12] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[11] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[10] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[9] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[8] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[7] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[6] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[5] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[4] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[3] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[2] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[1] in module rightShift_A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[31] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[30] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[29] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[28] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[27] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[26] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[25] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[24] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[23] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[22] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[21] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[20] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[19] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[18] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[17] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[16] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[15] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[14] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[13] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[12] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[11] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[10] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[9] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[8] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[7] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[6] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[5] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[4] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[3] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[2] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[1] in module rightShift_L is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[31] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[30] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[29] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[28] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[27] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[26] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[25] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[24] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[23] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[22] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[21] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[20] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[19] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[18] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[17] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[16] in module LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port loadIR in module IR is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[26] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[25] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[24] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[23] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[22] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[21] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[20] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[19] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[18] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[17] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[16] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[15] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[14] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[13] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[12] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[11] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[10] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[9] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[8] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[7] in module controlSignal is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IMout[6] in module controlSignal is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1529.777 ; gain = 585.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1529.777 ; gain = 585.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1529.777 ; gain = 585.625
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 1529.777 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/prana/Downloads/Processor/Processor.gen/sources_1/ip/mem_ram/mem_ram/mem_ram_in_context.xdc] for cell 'DataMemory'
+Finished Parsing XDC File [c:/Users/prana/Downloads/Processor/Processor.gen/sources_1/ip/mem_ram/mem_ram/mem_ram_in_context.xdc] for cell 'DataMemory'
+Parsing XDC File [c:/Users/prana/Downloads/Processor/Processor.gen/sources_1/ip/mem_rom/mem_rom/mem_rom_in_context.xdc] for cell 'InstructionMemory'
+Finished Parsing XDC File [c:/Users/prana/Downloads/Processor/Processor.gen/sources_1/ip/mem_rom/mem_rom/mem_rom_in_context.xdc] for cell 'InstructionMemory'
+Parsing XDC File [C:/Users/prana/Downloads/Processor/Processor.srcs/constrs_1/new/fpga.xdc]
+Finished Parsing XDC File [C:/Users/prana/Downloads/Processor/Processor.srcs/constrs_1/new/fpga.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/prana/Downloads/Processor/Processor.srcs/constrs_1/new/fpga.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/topModule_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/topModule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1577.977 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1577.977 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for DataMemory. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for InstructionMemory. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'controlSignal'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                             0000
+                 iSTATE0 |                              001 |                             0001
+                 iSTATE1 |                              010 |                             0010
+                 iSTATE2 |                              011 |                             0011
+                 iSTATE3 |                              100 |                             0100
+                 iSTATE4 |                              101 |                             0101
+                 iSTATE5 |                              110 |                             0110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'controlSignal'
+WARNING: [Synth 8-327] inferring latch for variable 'RA_reg' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/IR.v:34]
+WARNING: [Synth 8-327] inferring latch for variable 'RB_reg' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/IR.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'RW_reg' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/IR.v:36]
+WARNING: [Synth 8-327] inferring latch for variable 'IMM_reg' [C:/Users/prana/Downloads/Processor/Processor.srcs/sources_1/imports/Downloads/Proccessor/Proccessor.srcs/sources_1/new/IR.v:37]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 276   
+	   2 Input      1 Bit         XORs := 32    
++---Registers : 
+	               32 Bit    Registers := 23    
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 21    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 7     
+	   2 Input   16 Bit        Muxes := 4     
+	   3 Input   16 Bit        Muxes := 1     
+	   7 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 12    
+	   4 Input    4 Bit        Muxes := 3     
+	   3 Input    4 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 58    
+	   4 Input    1 Bit        Muxes := 20    
+	   3 Input    1 Bit        Muxes := 8     
+	   7 Input    1 Bit        Muxes := 5     
+	   6 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:44 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:44 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:44 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:49 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:49 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:49 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:49 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:49 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:49 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |mem_rom       |         1|
+|2     |mem_ram       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |mem_ram |     1|
+|2     |mem_rom |     1|
+|3     |BUFG    |     2|
+|4     |CARRY4  |     8|
+|5     |LUT1    |     2|
+|6     |LUT2    |     9|
+|7     |LUT3    |    84|
+|8     |LUT4    |    59|
+|9     |LUT5    |   255|
+|10    |LUT6    |   731|
+|11    |MUXF7   |   207|
+|12    |MUXF8   |    89|
+|13    |FDCE    |   714|
+|14    |FDPE    |     1|
+|15    |FDRE    |    36|
+|16    |LD      |    12|
+|17    |LDC     |    16|
+|18    |IBUF    |     6|
+|19    |OBUF    |    16|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:49 . Memory (MB): peak = 1577.977 ; gain = 633.824
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:45 . Memory (MB): peak = 1577.977 ; gain = 585.625
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:50 . Memory (MB): peak = 1577.977 ; gain = 633.824
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1577.977 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 332 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1577.977 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 28 instances were transformed.
+  LD => LDCE: 12 instances
+  LDC => LDCE: 16 instances
+
+Synth Design complete | Checksum: c7d08cfa
+INFO: [Common 17-83] Releasing license: Synthesis
+133 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:58 . Memory (MB): peak = 1577.977 ; gain = 1051.582
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1577.977 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/prana/Downloads/Processor/Processor.runs/synth_1/topModule.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file topModule_utilization_synth.rpt -pb topModule_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 12 22:27:00 2024...
